@@ -1,0 +1,38 @@
+int a;
+a = 5 
+de variable heeft de waarde 5 maar dat wilt niet zeggen dat a = 5 er is enkel een koppeling gelegd van a naar een plek in het gehuegen die 5 is.
+seqentie = een bewerking 
+inplencite conversie => je kan er van spreken als je een waarde in ander varibel waarde wilt stekn dus bv een int in een large
+
+expliciete conversie of ook casten genoemd => hier steek je een variabel waarde van bv een large in een int zo dit doe je door middel van aint = (int)alarge als je alarge klein genoeg is komt dit goed maar als je gtal te groot is dan komt dat niet goed en omdat je dan gytes weglaat verwijder je mogelijk een stuk van het getal en word het dus een nader getal
+
+je kan ook bv schrijven large iets = 567845464L je zet een L er bij omdat het automatisch een int is
+of float ietsanders = 123.45F hier moet je dat doet omdat het automatisch een double is 
+
+++i
+i++ 
+
+bij ++i word er eerst de waarde verhoogd en dan word de waarde gebruikt 
+bij i++ word er de waarde van i genomen en dan pas +1 gedaan
+
+dus als je twee variable gelijkstelt aan elkaar dan kan dit verschil geven bv
+
+iets = 1
+ietsander = ++iets
+hier is iets 2 en ietsanders ook 2 want er word eerst 1+1 gedaan maar als je dit omdraait
+
+ietsander = iets++
+hier is iets nog steets 2 maar ietsander is hier 1 omdat je ietsanders eerst gelijk stelt aan iets dat op dat moment nog maar 1 is en pas daarna met een verhoogd word.
+
+als je een berwerking doet met een variable is de uitkomst daarvan altijd minsten een int dus als je een byte +een byte doet dan krijg je een int want een int is bij een bewerking altijd de minimum waarden
+natuurlijk als je een invoerwaarde groter dan 32 bit een bewerking doet dan krijgt die natuurlijk die waarde omdat die waarde anders niet in een int zou passen
+de enigste' uitzondering op deze regel is als je getal een byte zou zijn en je doet getal++ dan doe je eigelijk getal +1 dus normaal gezien zou het een int moetn zijn maar omdat het in die notatie geschreven is blijft dat een byte en dus geen int volgens de noramle regel
+
+als je een int deel door een int dan krijg je altijd een rrond getal dus als je 10/4 doet dan krijg je normaal gezein 2.5 maar in java krijg je gewoon 2 omdat je een geheel getal deelt door een geheel getal dus een int delen door een int is een int met als gevolg het de pc stopt bij die twee want een int kijkt niet naar getallen na de komma
+
+als je een int deel door een int dan krijg je als resultaat een int ook al is je varible waar je de uitkomst insteekt een double of een float
+als je een int deelt door een int maar je zet die bewerking tussen haakjes en je zet voor de haakjes casten (double) dan bekom je nog steet een geheel getal omdat de pc de uitkosmt van de haakjes gelijk stelt aan een double maar dan is de deling al geberud en speelt het daar geeen rol mee
+de engiste manier om goed te casten van een int en een int is y= (double) x/z want zo gaat hij eerst kijken nar de double en dan gij hij de waardes omzetten naar doubles en de bewerking uitvoerne.
+
+als je een bewerking uitvoert en je een getal maar een kommagetel doet dan mag je niet vergeten het komma getal dat niet gedefineerd is er een f of een F achter te zetten als de waarde van de uitkomst geen double is want een komma getal word altijd als een kommagetal gepakt en dan wil je eigelijk een int *5.2 duss dan doe je eig int * double = float en een double is groter dan een float dus past het er niet in dus je zete er gewon een F acheter het komma getal
+als je 

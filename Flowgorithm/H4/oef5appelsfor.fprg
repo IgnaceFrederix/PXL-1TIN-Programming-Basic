@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-25 09:10:20 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDA5OjA3OjA5IDsgMjM4MQ=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDA5OjEwOjIwIDsgMjM2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="appels" type="Integer" array="False" size="" variables="appels"/>
+            <for variable="appels" start="1" end="100" direction="inc" step="1">
+                <output expression="appels*165"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-24 10:21:45 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjQ7IDEwOjEyOjA0IDsgMjM2Mw=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjQ7IDEwOjIxOjQ1IDsgMjM2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eenheidprijs" type="Integer" array="False" size="" variables="eenheidprijs"/>
+            <declare name="aantal" type="Integer" array="False" size="" variables="aantal"/>
+            <declare name="totaal" type="Integer" array="False" size="" variables="totaal"/>
+            <input variable="eenheidprijs"/>
+            <input variable="aantal"/>
+            <assign variable="totaal" expression="aantal*eenheidprijs"/>
+            <if expression="totaal &gt; 1000">
+                <then>
+                    <assign variable="totaal" expression="totaal -22"/>
+                </then>
+                <else>
+                    <if expression="totaal &gt; 500">
+                        <then>
+                            <assign variable="totaal" expression="totaal - 10"/>
+                        </then>
+                        <else>
+                            <assign variable="totaal" expression="totaal"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;De te betalen prijs is &quot; &amp; totaal &amp; &quot; euro&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

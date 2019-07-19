@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-25 09:28:02 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDA5OjIxOjI5IDsgMjM3OQ=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDA5OjI4OjAyIDsgMjM3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="getal" type="Integer" array="False" size="" variables="getal"/>
+            <declare name="count" type="Integer" array="False" size="" variables="count"/>
+            <assign variable="count" expression="1"/>
+            <input variable="getal"/>
+            <while expression="count &lt; 21">
+                <output expression="count &amp; &quot; x &quot;&amp; getal &amp; &quot;=&quot; &amp; count*getal"/>
+                <assign variable="count" expression="count +1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

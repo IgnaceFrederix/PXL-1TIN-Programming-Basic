@@ -1,0 +1,166 @@
+	diavoorstelling H5
+
+byte + byte => int (als je iets optelt bekom je altijd minimaal een int) 
+byte + float => float(als je twee variable optelt pak je altijd de grootste van de twee en dan kijk je of het groter of kleiner is dan een int als het kleiner is dan pak je toch een int anders pak je de waarde die je bekomen bent.)
+short * byte = int
+float * float = float
+int / int = int(resultaat geef een int terug dus als je een oneven getal deelt bekom je toch een rond getal omdat een int niet werkt met komma getallen.)
+
+int /double = double
+
+rangorde van de datatypes
+1	double
+2	float
+3	long
+4	int
+5	short
+6	byte
+
+
+int i;
+int n = 3;
+double d;
+i = n + 4;
+i = n* 4;
+i = 7 + 2 *3;
+n = n*(n+2)*4;
+d = 3.5 / 2;
+n = 7/4;
+
+-----------------
+
+i = 3 + 4 = 7
+i = 3 * 4 = 12
+i = 7 + 6 => i = 13
+n = 3*(3 +2)*4 => 3*5*4 => 15*4=> n = 60
+d = 3.5/2 = 1.75
+n = 7/4 = 1 (want het getal waardoor gedeelt word is 7 en niet 7.0 => 7.0/4 => 1.75)
+-----------------------------------------------------------------------------------------
+opdracht4
+a)
+
+int a = 10;
+int b = 2;
+int c = 6;
+int opl;
+
+opl = c - a / b + 9;
+opl = 4 * a / c / b;
+opl = 4 * (a / c) / b;
+opl = a - c % 4 / b;
+---------------------------
+
+
+opl = 6 - 10 / 2 + 9 =>  6-5+9 => 1+9 => opl = 10
+opl = 4 * 10 / 6 / 2 => 40 /6 / 2=> 6 /2 => 3(als je 40 deelt door 6 pak je het grootste getal dat in 40 kan dan een veelvoud is van 6 in dit geval 36 omdat je alleen maar werkt met ints)
+opl = 4 * (10 / 6) / 2 => 4 * 1 / 2 => 4/2 => 2 
+opl = 10 - 6 % 4 / 2 => 10 - 2 / 2 => 10 - 1 => 9 (bij een modulo pak je de rest dus eigenlijk in dit geval 6 - 1*4 = 2 de modulo heeft de zelfde volgore van de berwerking als * en /)
+
+b)
+
+int a = 9;
+int b = 2;
+int c = 5;
+double opl;
+
+opl = c - a / b + 9;
+opl = 4 * a / c / b;
+opl = 4.0 * a / c / b;
+-----------------------------------
+
+
+opl = 5 - 9 / 2 + 9=> 5- 4 +9 => 1 + 9 => 10(als je het uitvoert in eclipse dan krijg je wel 10.0 omdat de variabele een double is)
+opl = 4 * 9 / 5 /2 => 36 /5 / 2 => 7/2 => 3
+opl = 4.0 * 9/ 5 / 2 =>  36.0 / 5 / 2 => 7.2/2 => 3.6
+
+c)
+double a = 5;
+double b = 6;
+int opl = a+b;
+
+kan niet omdat als je een double en een double optelt dan is de range te groot voor een int
+
+alternatief is
+
+double a = 5;
+double b = 6;
+double opl = a+b;
+
+short a = 5;
+short b = 6;
+short opl = a +b;
+
+lukt niet omdat als je twee waarde optelt je van waarde een int of een hogere waarde krijg 
+
+alternatief is
+
+short a = 5;
+short b = 6;
+int opl = a +b;
+
+
+d)
+int x,z;
+double y;
+x = 7;
+z = 2;
+y = x/z;
+y = 3(of 3.0 in eclipse)
+
+int x ,z;
+double y;
+x = 7;
+z = 2;
+y = (double) x /z;
+y = 3.5
+
+int x ,z;
+double y;
+x = 7;
+z = 2;
+y = (double) (x /z);
+y = 3(of 3.0 in eclipse)
+
+
+e)
+int x;
+float z;
+x = 5;
+z = x*5.2;
+
+int x;
+float z;
+x = 5;
+z = x*5.2F;(auto is een kommagetal een double en moet je een F of een f achter het getal zetten om geen errors te krijgen)
+
+int x,y;
+long z;
+x = 5;
+y = 6;
+z = x + y;
+
+
+f)
+int i, iwaarde;
+float f, fwaarde;
+iwaarde = 22;
+fwaarde = 4.9F;
+f = iwaarde;
+i = (int)fwaarde;
+f = (float)((5+6)/2);
+f = (float) (5+6)/2;
+
+int i, iwaarde;
+float f, fwaarde;
+iwaarde = 22;
+fwaarde = 4.9F;
+f = iwaarde;   		=>  22
+i = (int)fwaarde;	=>  4 
+f = (float)((5+6)/2);	=> 11/2 => 5(in dit geval word de uitkomst van de buitste haakjes omgezet naar een float maar dan heb je al 11/2 gedaan en dan word dat gewoon een 5 als antwoord genomen als je later nog een bewerking gaat doen kan het wel een kommagetal worden)
+f = (float) (5+6)/2; 	=>  11/2 => 5.5(in dit geval word de uitkomst van de 5+6 direct omgezet naar een float dus 11.0 en krijg je als einduitkomst wel een 5.5)
+
+
+
+ 
+
+

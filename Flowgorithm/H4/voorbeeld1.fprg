@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-21 06:31:22 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjE7IDA1OjA4OjE1IDsgMjM3MQ=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjE7IDA2OjMxOjIyIDsgMjM2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size="" variables="a"/>
+            <declare name="b" type="Integer" array="False" size="" variables="b"/>
+            <declare name="sum" type="Integer" array="False" size="" variables="sum"/>
+            <assign variable="a" expression="5"/>
+            <assign variable="b" expression="6"/>
+            <assign variable="sum" expression="a+b"/>
+        </body>
+    </function>
+</flowgorithm>

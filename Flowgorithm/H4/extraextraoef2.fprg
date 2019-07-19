@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-26 05:07:30 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjY7IDA0OjUxOjM5IDsgMjM3OQ=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjY7IDA1OjA3OjMwIDsgMjM3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size="" variables="a"/>
+            <declare name="b" type="Integer" array="False" size="" variables="b"/>
+            <declare name="c" type="Integer" array="False" size="" variables="c"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a &gt;0">
+                <then>
+                    <if expression="b &gt; 0">
+                        <then>
+                            <if expression="c &gt; 0">
+                                <then>
+                                    <output expression="&quot;de formule heeft geen 0 punten&quot;"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;de formule heeft &#233;&#233;n 0 punt&quot;"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="c &gt; 0">
+                                <then>
+                                    <output expression="&quot;de formule heeft 1 0 punt punten&quot;"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;de formule heeft 2 0 punt&quot;"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b &gt; 0">
+                        <then>
+                            <if expression="c &gt; 0">
+                                <then>
+                                    <output expression="&quot;de formule heeft 1 0 punten&quot;"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;de formule heeft 2 0 punt&quot;"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="c &gt; 0">
+                                <then>
+                                    <output expression="&quot;de formule heeft 2 0 punt punten&quot;"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;de formule heeft 3 0 punt&quot;"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-22 10:26:59 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjI7IDEwOjAzOjUwIDsgMjM2Mg=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjI7IDEwOjI2OjU5IDsgMjM3Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size="" variables="age"/>
+            <input variable="age"/>
+            <if expression="age &gt;= 18">
+                <then>
+                    <output expression="&quot;de persoon is een volwassenen&quot;"/>
+                </then>
+                <else>
+                    <if expression="age &gt;= 10">
+                        <then>
+                            <output expression="&quot;de persoon is een tiener&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="age &gt;= 2">
+                                <then>
+                                    <output expression="&quot;de persoon is een kind&quot;"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;de persoon is een baby&quot;"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

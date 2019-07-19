@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-25 09:06:23 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDA4OjU5OjM3IDsgMjM4OA=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDA5OjA2OjIzIDsgMjM3Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="getal" type="Integer" array="False" size="" variables="getal"/>
+            <input variable="getal"/>
+            <while expression="getal &gt; 100">
+                <output expression="getal &amp; &quot; x 3 = &quot; &amp; 3*getal"/>
+                <input variable="getal"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

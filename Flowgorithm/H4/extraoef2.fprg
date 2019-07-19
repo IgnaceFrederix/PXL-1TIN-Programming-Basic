@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-24 09:26:21 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjQ7IDA5OjExOjEwIDsgMjM2Nw=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjQ7IDA5OjI2OjIxIDsgMjM3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size="" variables="a"/>
+            <declare name="b" type="Integer" array="False" size="" variables="b"/>
+            <declare name="c" type="Integer" array="False" size="" variables="c"/>
+            <declare name="uitkomst" type="Integer" array="False" size="" variables="uitkomst"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a +b &lt; 20">
+                <then>
+                    <assign variable="uitkomst" expression="a+b+c"/>
+                    <output expression="&quot;De som is &quot; &amp; uitkomst"/>
+                </then>
+                <else>
+                    <output expression="&quot;te groot&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

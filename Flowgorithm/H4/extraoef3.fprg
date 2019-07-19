@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-25 09:44:59 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDA5OjMwOjI4IDsgMjM3OA=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDA5OjQ0OjU5IDsgMjM4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="getal" type="Integer" array="False" size="" variables="getal"/>
+            <for variable="getal" start="1" end="100" direction="inc" step="1">
+                <output expression="&quot;het getal is &quot; &amp; getal &amp; &quot; hun kwadraat &quot; &amp; getal*getal"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

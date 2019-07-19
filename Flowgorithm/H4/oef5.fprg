@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-24 02:13:32 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjQ7IDEwOjIxOjQ4IDsgMjM3MQ=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjQ7IDAyOjEzOjMyIDsgMjM2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size="" variables="a"/>
+            <declare name="b" type="Integer" array="False" size="" variables="b"/>
+            <declare name="uitkomst" type="Integer" array="False" size="" variables="uitkomst"/>
+            <declare name="einduitkomst" type="Integer" array="False" size="" variables="einduitkomst"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a &lt; b">
+                <then>
+                    <assign variable="uitkomst" expression="b-a"/>
+                    <assign variable="einduitkomst" expression="uitkomst *5"/>
+                    <output expression="b &amp; &quot;-&quot; &amp; a &amp;&quot;=&quot;&amp; uitkomst"/>
+                    <output expression="uitkomst &amp;&quot; X 5 =&quot; &amp; einduitkomst"/>
+                </then>
+                <else>
+                    <assign variable="uitkomst" expression="a-b"/>
+                    <assign variable="einduitkomst" expression="uitkomst *5"/>
+                    <output expression="a &amp;&quot;-&quot;&amp; b &amp;&quot;=&quot;&amp; uitkomst"/>
+                    <output expression="uitkomst &amp;&quot; X 5 =&quot; &amp; einduitkomst"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

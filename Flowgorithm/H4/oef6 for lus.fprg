@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-25 02:22:15 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDAyOjE1OjQ4IDsgMjM3Ng=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDAyOjIyOjE1IDsgMjM2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="invoergetal" type="Integer" array="False" size="" variables="invoergetal"/>
+            <declare name="getal" type="Integer" array="False" size="" variables="getal"/>
+            <input variable="invoergetal"/>
+            <for variable="getal" start="1" end="20" direction="inc" step="1">
+                <output expression="getal &amp; &quot;x&quot; &amp; invoergetal &amp; &quot;=&quot; &amp; getal*invoergetal"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

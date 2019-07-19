@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-25 10:14:05 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjQ7IDA5OjI4OjMyIDsgMjM3OQ=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjU7IDEwOjE0OjA1IDsgMjM2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="javadeelexamen" type="Integer" array="False" size="" variables="javadeelexamen"/>
+            <declare name="javaexamen" type="Integer" array="False" size="" variables="javaexamen"/>
+            <declare name="netwerkopdracht" type="Integer" array="False" size="" variables="netwerkopdracht"/>
+            <declare name="netwerkexamen" type="Integer" array="False" size="" variables="netwerkexamen"/>
+            <declare name="javapercentage" type="Integer" array="False" size="" variables="javapercentage"/>
+            <declare name="netwerkpercentage" type="Integer" array="False" size="" variables="netwerkpercentage"/>
+            <declare name="totaal" type="Integer" array="False" size="" variables="totaal"/>
+            <input variable="javadeelexamen"/>
+            <input variable="javaexamen"/>
+            <input variable="netwerkopdracht"/>
+            <input variable="netwerkexamen"/>
+            <assign variable="javapercentage" expression="(((javadeelexamen/20)*0.4)+((javaexamen/20)*0.6))*20"/>
+            <assign variable="netwerkpercentage" expression="(((netwerkexamen/20)*0.3)+((netwerkexamen/20)*0.7))*20"/>
+            <assign variable="totaal" expression="((((javapercentage/20)*0.7) + ((netwerkpercentage/20)*0.3))*100)"/>
+            <output expression="&quot;je resultaat op het java gedeelte is&quot;&amp; javapercentage"/>
+            <output expression="&quot;je resultaat op het netwerk gedeelte is&quot;&amp; netwerkpercentage"/>
+            <output expression="&quot;je algemene resultaat is&quot; &amp; totaal"/>
+        </body>
+    </function>
+</flowgorithm>

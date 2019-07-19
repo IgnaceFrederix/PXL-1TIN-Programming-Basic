@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="1.7">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mijn PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2015-09-24 09:10:27 "/>
+        <attribute name="created" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjQ7IDA4OjU0OjI2IDsgMjM4MA=="/>
+        <attribute name="edited" value="TWlqbiBQQzsgTVNJLUlOSUY7IDIwMTUtMDktMjQ7IDA5OjEwOjI3IDsgMjM3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size="" variables="a"/>
+            <declare name="b" type="Integer" array="False" size="" variables="b"/>
+            <declare name="kwadraat" type="Integer" array="False" size="" variables="kwadraat"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a &gt; b">
+                <then>
+                    <assign variable="kwadraat" expression="b*b"/>
+                    <output expression="&quot;Het kleinste getal is &quot; &amp; b"/>
+                    <output expression="&quot;Het kwadraat van het kleinste getal is&quot; &amp; kwadraat"/>
+                </then>
+                <else>
+                    <assign variable="kwadraat" expression="a*a"/>
+                    <output expression="&quot;Het kleinste getal is&quot;&amp;  a"/>
+                    <output expression="&quot;Het kwadraat van het kleinste getal is&quot; &amp; kwadraat"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
