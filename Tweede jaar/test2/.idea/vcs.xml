@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../JavaAdvW01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../week1-computerstore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../week2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../week2-generics/src/week2-generics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../week2-generics/week2-generics" vcs="Git" />
+  </component>
+</project>
